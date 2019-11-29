@@ -3,7 +3,7 @@
 #                                                           #
 # This is a PPTP and L2TP VPN installation for CentOS 7     #
 # Version: 1.1.1 20160507                                   #
-# Author: Bon Hoo                                           #
+# Author: pzbhellp                                          #
 # Website: http://www.ccwebsite.com                         #
 #                                                           #
 #############################################################
@@ -70,9 +70,9 @@ if [[ -n "$iprangetmp" ]]; then
 fi
 
 #设置预共享密钥
-mypsk="ueibo.cn"
+mypsk="pzbhellp"
 echo "Please input PSK:"
-printf "(Default PSK: \e[33mueibo.cn\e[0m): "
+printf "(Default PSK: \e[33mpzbhellp\e[0m): "
 read mypsktmp
 if [[ -n "$mypsktmp" ]]; then
     mypsk=$mypsktmp
