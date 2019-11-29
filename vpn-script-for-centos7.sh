@@ -79,9 +79,9 @@ if [[ -n "$mypsktmp" ]]; then
 fi
 
 #设置VPN用户名
-username="ueibo.com"
+username="pzbhellp"
 echo "Please input VPN username:"
-printf "(Default VPN username: \e[33mueibo.com\e[0m): "
+printf "(Default VPN username: \e[33mpzbhellp\e[0m): "
 read usernametmp
 if [[ -n "$usernametmp" ]]; then
     username=$usernametmp
